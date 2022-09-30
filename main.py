@@ -4,10 +4,7 @@ import datetime as dt
 
 from Api.middleware.cors import *
 
-
 app = falcon.API(middleware=[CorsMiddleware()])
-
-
 
 from Api.routes import *
 
